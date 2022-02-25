@@ -1,0 +1,42 @@
+
+#navbar {
+    background-color: rgb(9, 9, 10);
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#navbar a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    
+}
+
+#navbar a:hover {
+    color: rgb(233, 211, 47);
+}
+
+.welcome {
+    background-color: rgba(61, 69, 82, 0.589);
+    /* set the margin in this class */
+    /* margin: 15px; */
+}
+.logosmall {
+    width: 25%;
+}
+
+.imagesmall {
+    width: 550px;
+}
+
+.textcenter {
+    text-align: center;
+}
+
+/*  set the text size for paragraphs */
+p {
+    font-size: 28px;
+}
